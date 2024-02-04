@@ -1,0 +1,188 @@
+* {
+    padding: 0%;
+    margin: 0;
+    background-color: rgb(216, 222, 147);
+    font-family: sans-serif;
+
+}
+
+
+#navbar {
+    height: 50px;
+    background: rgb(152, 71, 71);
+    position: fixed;
+
+}
+
+
+
+.div1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 5px solid black*/
+}
+
+
+.div2 {
+    padding: 0 20%;
+}
+
+
+.div3sub1 {
+    /*border: 1px solid black;*/
+    height: 40%;
+    margin: 4% 6%;
+    text-align: left;
+}
+
+.div4 {
+    height: 100vh;
+
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 80%;
+    /* border: 2px solid black;
+    border-radius: 5px;*/
+    margin: 5px;
+
+
+
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 80%;
+    /* border: 2px solid black;
+    border-radius: 5px;*/
+    margin: 5px;
+    text-align: center;
+}
+
+#box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    /*border: 2px solid black;
+    border-radius: 5px;*/
+    margin: 5px;
+    text-align: center;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    /*border-image: black;
+    border-image-width: 5px;
+    border-style: solid;
+    border-radius: 5px;*/
+}
+
+
+.image2 {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    /* border-image: black;
+    border-image-width: 5px;
+    border-style: solid;
+    border-radius: 5px;*/
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+#para1 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 4%;
+    letter-spacing: 5px;
+}
+
+
+#para2 {
+    color: black;
+    font-family: calibri;
+    font-style: italic;
+    padding-bottom: 2%;
+}
+
+
+#para3 {
+    color: rgb(125, 73, 21);
+    font-family: calibri;
+    font-style: italic;
+    font-size: 300%;
+    padding: 0 20%;
+}
+
+#para41 {
+    padding: 5%;
+    letter-spacing: 5px;
+    line-height: 40px;
+
+}
+
+
+ul li {
+    list-style-type: none;
+    line-height: 120%;
+}
+
+
+#box4 {
+
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between 50px;
+
+}
+
+
+#subdiv4 {
+
+    margin: 8px;
+    height: 100%;
+    width: 25%;
+
+}
+
+
+
+.subdiv3 a {
+
+    color: brown;
+    margin: 8px;
+    height: 80%;
+    width: 25%;
+    font-size: 40px;
+    align-items: flex-end;
+    transition: all 0.5s;
+}
+
+.subdiv3 a:hover {
+    color: rgb(182, 85, 37);
+
+
+}
+
